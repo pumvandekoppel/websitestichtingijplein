@@ -387,4 +387,15 @@ p#slogan {
   ul#nav li a {
     font-size: 0.7em;
   }
+
+  
+}
+
+@media screen and (max-width: 325px) {
+  ul:not(nav) li {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

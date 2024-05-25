@@ -305,6 +305,10 @@ footer#over a#credit {
   display: none;
 }
 
+header {
+  margin-top: -17px;
+}
+  
 ul.nav > li {
   display: none;
 }

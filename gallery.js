@@ -11,6 +11,7 @@ var focusnine = new Boolean(false);
 
 function thisone() {
     if (focusone == false) {
+        document.getElementById("one").style.width = "87vw";
         document.getElementById("two").style.display = "none";
         document.getElementById("three").style.display = "none";
         document.getElementById("four").style.display = "none";
@@ -22,6 +23,7 @@ function thisone() {
         focusone = true
     }
     else {
+        document.getElementById("one").style.width = "initial";
         document.getElementById("two").style.display = "initial";
         document.getElementById("three").style.display = "initial";
         document.getElementById("four").style.display = "initial";
@@ -37,6 +39,7 @@ function thisone() {
 function thistwo() {
     if (focusone == false) {
         document.getElementById("one").style.display = "none";
+        document.getElementById("two").style.width = "87vw";
         document.getElementById("three").style.display = "none";
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
@@ -48,6 +51,7 @@ function thistwo() {
     }
     else {
         document.getElementById("one").style.display = "initial";
+        document.getElementById("two").style.width = "initial";
         document.getElementById("three").style.display = "initial";
         document.getElementById("four").style.display = "initial";
         document.getElementById("five").style.display = "initial";
@@ -63,6 +67,7 @@ function thisthree() {
     if (focusone == false) {
         document.getElementById("one").style.display = "none";
         document.getElementById("two").style.display = "none";
+        document.getElementById("three").style.width = "87vw";
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
@@ -74,6 +79,7 @@ function thisthree() {
     else {
         document.getElementById("one").style.display = "initial";
         document.getElementById("two").style.display = "initial";
+        document.getElementById("three").style.width = "initial";
         document.getElementById("four").style.display = "initial";
         document.getElementById("five").style.display = "initial";
         document.getElementById("six").style.display = "initial";
@@ -89,6 +95,7 @@ function thisfour() {
         document.getElementById("one").style.display = "none";
         document.getElementById("two").style.display = "none";
         document.getElementById("three").style.display = "none";
+        document.getElementById("four").style.width = "87vw";
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
         document.getElementById("seven").style.display = "none";
@@ -100,6 +107,7 @@ function thisfour() {
         document.getElementById("one").style.display = "initial";
         document.getElementById("two").style.display = "initial";
         document.getElementById("three").style.display = "initial";
+        document.getElementById("four").style.width = "initial";
         document.getElementById("five").style.display = "initial";
         document.getElementById("six").style.display = "initial";
         document.getElementById("seven").style.display = "initial";
@@ -115,6 +123,7 @@ function thisfive() {
         document.getElementById("two").style.display = "none";
         document.getElementById("three").style.display = "none";
         document.getElementById("four").style.display = "none";
+        document.getElementById("five").style.width = "87vw";
         document.getElementById("six").style.display = "none";
         document.getElementById("seven").style.display = "none";
         document.getElementById("eight").style.display = "none";
@@ -126,6 +135,7 @@ function thisfive() {
         document.getElementById("two").style.display = "initial";
         document.getElementById("three").style.display = "initial";
         document.getElementById("four").style.display = "initial";
+        document.getElementById("five").style.width = "initial";
         document.getElementById("six").style.display = "initial";
         document.getElementById("seven").style.display = "initial";
         document.getElementById("eight").style.display = "initial";
@@ -141,6 +151,7 @@ function thissix() {
         document.getElementById("three").style.display = "none";
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
+        document.getElementById("six").style.width = "87vw";
         document.getElementById("seven").style.display = "none";
         document.getElementById("eight").style.display = "none";
         document.getElementById("nine").style.display = "none";
@@ -152,6 +163,7 @@ function thissix() {
         document.getElementById("three").style.display = "initial";
         document.getElementById("four").style.display = "initial";
         document.getElementById("five").style.display = "initial";
+        document.getElementById("six").style.width = "initial";
         document.getElementById("seven").style.display = "initial";
         document.getElementById("eight").style.display = "initial";
         document.getElementById("nine").style.display = "initial";
@@ -167,6 +179,7 @@ function thisseven() {
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
+        document.getElementById("seven").style.width = "87vw";
         document.getElementById("eight").style.display = "none";
         document.getElementById("nine").style.display = "none";
         focusone = true
@@ -178,6 +191,7 @@ function thisseven() {
         document.getElementById("four").style.display = "initial";
         document.getElementById("five").style.display = "initial";
         document.getElementById("six").style.display = "initial";
+        document.getElementById("seven").style.width = "initial";
         document.getElementById("eight").style.display = "initial";
         document.getElementById("nine").style.display = "initial";
         focusone = false
@@ -193,6 +207,7 @@ function thiseight() {
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
         document.getElementById("seven").style.display = "none";
+        document.getElementById("eight").style.width = "87vw";
         document.getElementById("nine").style.display = "none";
         focusone = true
     }
@@ -204,6 +219,7 @@ function thiseight() {
         document.getElementById("five").style.display = "initial";
         document.getElementById("six").style.display = "initial";
         document.getElementById("seven").style.display = "initial";
+        document.getElementById("eight").style.width = "initial";
         document.getElementById("nine").style.display = "initial";
         focusone = false
     }
@@ -219,6 +235,7 @@ function thisnine() {
         document.getElementById("six").style.display = "none";
         document.getElementById("seven").style.display = "none";
         document.getElementById("eight").style.display = "none";
+        document.getElementById("nine").style.width = "87vw";
         focusone = true
     }
     else {
@@ -230,6 +247,7 @@ function thisnine() {
         document.getElementById("six").style.display = "initial";
         document.getElementById("seven").style.display = "initial";
         document.getElementById("eight").style.display = "initial";
+        document.getElementById("nine").style.width = "initial";
         focusone = false
     }
 }

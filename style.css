@@ -321,6 +321,10 @@ main#index div.slogan {
   font-size: 2em;
 }
 
+main#index p#slogan {
+  font-weight: bold;
+}
+
 .horizontal {
   display: block !important;
 }

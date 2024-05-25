@@ -130,6 +130,8 @@ main figure {
   display: block;
   text-align: center;
   color: white;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 22px;
 }
 

@@ -298,7 +298,7 @@ footer#over a#credit {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 944px) {
 
 .hideonsmallscreen {
   display: none;
@@ -314,6 +314,7 @@ ul.nav > li {
 
 ul.nav > li#menu {
   display: block;
+  margin-bottom: 11px;
 }
 
 main#index p#slogan {

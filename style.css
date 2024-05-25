@@ -147,7 +147,7 @@ main figcaption {
   
 main#index div.slogan {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2em;
@@ -313,15 +313,8 @@ ul.nav > li#menu {
   display: block;
 }
 
-main#index div.slogan {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2em;
-}
-
 main#index p#slogan {
+  font-size: 0.5em;
   font-weight: bold;
 }
 

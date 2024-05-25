@@ -1,0 +1,381 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  width: 87vw;
+  height: 100%;
+  min-height: 100vh;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+  padding: 0;
+  font-family: "Vazirmatn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(254, 254, 253);
+}
+
+.noselect, small {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* HEADER *******/
+
+header {
+  height: 13vh;
+  width: inherit;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100px;
+  margin-bottom: 68px;
+}
+
+header nav {
+  display: flex;
+  font-size: 1.4em;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.logo, ul.nav {
+  list-style-type: none;
+}
+
+header ul.logo {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+header ul.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header ul.nav li {
+  padding: 9px;
+}
+
+header ul.nav li#roze a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #ddb2a1;
+  text-decoration-thickness: 3px;
+}
+
+header ul.nav li#blauw a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #9dbfe2;
+  text-decoration-thickness: 3px;
+}
+
+header ul.nav li#groen a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #c2d2ad;
+  text-decoration-thickness: 3px;
+}
+
+header ul.nav li#geel a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #eaea9f;
+  text-decoration-thickness: 3px;
+}
+
+header li#menu {
+  display: none;
+  cursor: context-menu;
+}
+
+header a {
+  color: black;
+}
+
+header a:link {
+  color: black;
+}
+
+/****************/
+
+a, .footnote, .footnoted {
+  text-decoration: none;
+  color: #5c657c;
+}
+
+a#aanvraag:hover {
+    color: #ddb2a1;
+}
+
+/* MAIN **********/
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+main img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main figure {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: white;
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+main figure.bigimage {
+  margin-bottom: 68px;
+}
+
+main figcaption {
+  color: black;
+  text-align: right;
+  padding: 0;
+  margin-top: 12px;
+}
+  
+main#index div.slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+main#index .horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: end;
+  margin-top: 57px;
+}
+
+main#aanvraag .horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+small.footnoted {
+  display: none;
+}
+
+small.footnote {
+  cursor: help;
+}
+
+h2, p, figure {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+main#aanvraag .horizontal > div {
+  flex: 1 0 100px;
+  max-width: 44%;
+}
+
+main#aanvraag .horizontal > figure {
+  max-width: 44%;
+  align-self: stretch;
+}
+
+main#aanvraag section {
+  margin-top: 26px;
+  margin-bottom: 30px;
+}
+
+main .horizontal > div.right {
+  padding-left: 85px;
+}
+
+main#index article div, main#index section div {
+  margin-right: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+main#index article div.right, main#index section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 510px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+main#index article div.right blockquote, main#index section div.right {
+  margin-top: auto;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+/* Fallback */
+blockquote {
+    text-indent: -0.345em;
+  }
+  
+  /* If there's support, erase the indent and use the property instead */
+  @supports ( hanging-punctuation: first) {
+    blockquote {
+      text-indent: 0;
+      hanging-punctuation: first;
+    }
+  }
+
+h1, h2, h3, h4, h5, h6, p, small {
+  max-width: 75ch;
+}
+
+h2, h3, h4 {
+  /* max width 46 */
+  max-width: 34ch;
+}
+
+/* FOOTER *******/
+
+footer {
+  height: 13vh;
+  width: 87vw;
+  flex-shrink: 0;
+  margin-top: 65px;
+}
+
+footer hr {
+  border: none;
+  height: 2px;
+  color: #333;
+  background-color: #333;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer small a#upbutton {
+  float: right;
+  padding-right: 4px;
+  line-height: 213%;
+}
+
+footer small a:not(#email) && footer small a:not(#kvk) {
+  float: right;
+}
+
+footer span#blank {
+  display: none;
+}
+
+footer#over a#credit {
+    float: right;
+    padding-right: 4px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 810px) {
+
+.hideonsmallscreen {
+  display: none;
+}
+
+ul.nav > li {
+  display: none;
+}
+
+ul.nav > li#menu {
+  display: block;
+}
+
+.horizontal {
+  display: block !important;
+}
+
+main > * {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.horizontal > *
+ {
+  max-width: 87vw !important;
+  width: 87vw !important;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 87vw;
+}
+
+ul:not(nav) li {
+  padding-left: 0px;
+  padding-right: 0 !important;
+  margin-left: 0px;
+  margin-right: 3.2vw;
+}
+
+p#slogan {
+  font-size: 0.7em;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+}
+
+@media screen and (max-width: 580px) {
+
+h1 {
+  font-size: 1.5em;
+}
+
+ul#nav li a {
+  font-size: 0.8em;
+}
+
+p#slogan {
+  font-size: 0.45em;
+}
+
+}
+
+@media screen and (max-width: 497px) {
+
+  h1 {
+    font-size: 1.25em;
+  }
+
+  ul#nav li a {
+    font-size: 0.7em;
+  }
+}

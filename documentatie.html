@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stichting IJplein - Documentatie</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="logo">
+          <h1><a href="index.html"><span id="biglogofirstpart">Stichting&ensp;</span><span id="biglogomiddlepart">IJ</span><span id="biglogosecondpart">plein</span></a></h1>
+        </ul>
+        <ul id="nav" class="nav">
+          <li id="roze">
+            <a href="aanvraag.html">Aanvraag</a>
+          </li>
+          <li id="blauw">
+            <a
+              href="documentatie.html"
+              style="
+                text-decoration: underline;
+                text-decoration-color: hsl(210, 54%, 75%);
+                text-decoration-thickness: 3px;
+              "
+              >Documentatie</a
+            >
+          </li>
+          <li id="groen">
+            <a href="bronnen.html">Bronnen</a>
+          </li>
+          <li id="geel">
+            <a href="over.html">Over</a>
+          </li>
+          <li id="menu" class="noselect">
+            <h1 onclick="menu()">...</h1>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="documentatie">
+      <article>
+        <h2>Foto's Bernard Leupen</h2>
+        <br /><br />
+        <div class="grid-container">
+          <div class="grid-item" id="one" onclick="thisone()">
+            <img
+              src="assets/IJplein+oude+dia+foto+B+Leupenbew+foto+B+Leupen_QDS3026.jpg"
+              alt="oude dia van het IJ"
+            />
+          </div>
+          <div class="grid-item" id="two" onclick="thistwo()">
+            <img
+              src="assets/IJplein+oude+dia+foto+B+Leupen_QDS3027-1.jpg"
+              alt="oude dia van een boot in het water bij het IJplein"
+            />
+          </div>
+          <div class="grid-item" id="three" onclick="thisthree()">
+            <img
+              src="assets/OMA_Koolhaas_IJplein_Foto_Bernard_Leupen_Visioen.jpg"
+              alt="foto van het IJplein vanaf het centraal station"
+            />
+          </div>
+          <div class="grid-item" id="four" onclick="thisfour()">
+            <img
+              src="assets/OMA_IJ_Pein_Foto+B+Leupen_DSC0404.jpg"
+              alt="crop up van het IJplein gezien vanaf het centraal station"
+            />
+          </div>
+          <div class="grid-item" id="five" onclick="thisfive()">
+            <img
+              src="assets/Urban_villas_leupen.png"
+              alt="foto van de urban villas met bomen"
+            />
+          </div>
+          <div class="grid-item" id="six" onclick="thissix()">
+            <img
+              src="assets/OMA_IJplein_Amsterdam_Foto_Bomen_zomer_centraal_pleintje_Bernard_Leupen_DSC0385.jpg"
+              alt="foto van de bomen bij het IJplein"
+            />
+          </div>
+          <div class="grid-item" id="seven" onclick="thisseven()">
+            <img
+              src="assets/IJplein-Oost, gebouw Oost IIIb (OMA) (foto Bernard Leupen)-min.jpg"
+              alt="foto van de woningen op IJplein-Oost"
+            />
+          </div>
+          <div class="grid-item" id="eight" onclick="thiseight()">
+            <img
+              src="assets/OMA_IJplein_Amsterdam_Foto_Bernard_Leupen_DSC0379.jpg"
+              alt="foto van een voetgangerspad langs de urban villas op het IJplein"
+            />
+          </div>
+          <div class="grid-item" id="nine" onclick="thisnine()">
+            <img
+              src="assets/OMA_IJplein_Amsterdam_Foto_Uitzicht_St_nicolas_Bernard_Leupen_DSC0381.jpg"
+              alt="foto van een voetgangerspad langs de urban villas richting het water"
+            />
+          </div>
+        </div>
+        <br /><br /><br />
+      </article>
+    </main>
+    <footer>
+      <small
+        >Stichting IJplein<br />
+        <hr />
+        <a href="" id="kvk" class="hideonsmallscreen">KVK-nummer:&ensp;&ensp;76673758&ensp;&ensp;|&ensp;&ensp;</a>email:&ensp;&ensp;<a id="email"
+          href="mailto:stichting.ijplein@gmail.com"
+          >stichting.ijplein@gmail.com</a
+        ><a id="upbutton" href="#">Λ</a></small
+      >
+    </footer>
+    <script src="menu.js"></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>

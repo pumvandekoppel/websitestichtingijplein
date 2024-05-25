@@ -398,6 +398,10 @@ main figure.bigimage {
 }
 
 @media screen and (max-width: 325px) {
+  header nav {
+  justify-content: start;
+}
+  
   ul:not(nav) li {
     margin-right: 0;
     margin-left: 0;

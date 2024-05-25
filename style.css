@@ -130,8 +130,7 @@ main figure {
   display: block;
   text-align: center;
   color: white;
-  margin: 0;
-  margin-bottom: 0px;
+  margin-bottom: 22px;
 }
 
 main figure.bigimage {

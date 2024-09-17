@@ -295,6 +295,7 @@ footer span#blank {
 footer#over a#credit {
     float: right;
     padding-right: 4px;
+    cursor: alias;
 }
 
 
